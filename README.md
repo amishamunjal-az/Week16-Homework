@@ -4,8 +4,12 @@
 
 
 - Using Google, can you identify who the Chief Executive Officer of Altoro Mutual is:
+
 **Ans** :- Use the command **site:demo.testfire.net intext:chief executive officer**
+![GoogleDorking.png](:\Users\amisha.munjal\Documents\Week16-Homework\Screengrabs)
+![GoogleDorkingInfoResults.png](:\Users\amisha.munjal\Documents\Week16-Homework\Screengrabsg)
 - How can this information be helpful to an attacker:
+
 **Ans :-** This information would serve as OSINT and can be used as by an attacker for impersonating attacks.
 Also attackers attempt to gain unauthorized access to executive’s accounts as C-level executives are often privy to sensitive information that is highly valued in the darkweb.
 Cybercriminals target executives using well thought out and tailored spear phishing messages to trick the executive into divulging passwords and other sensitive information.
@@ -34,6 +38,7 @@ Enter the IP address for `demo.testfire.net` into Domain Dossier and answer the 
 - Install the Recon module `xssed`. 
 - Set the source to `demo.testfire.net`. 
 - Run the module. 
+
 **Ans:- commands to be used**
 1) recon-ng
 2) keys add shodan_api [key to be added]
@@ -41,7 +46,10 @@ Enter the IP address for `demo.testfire.net` into Domain Dossier and answer the 
 4) modules load recon/domains-vulnerabilities/xssed
 5) options set SOURCE demo.testfire.net
 6) run
-Is Altoro Mutual vulnerable to XSS: **Yes, Altoro Mutual is vulnerable to XSS**
+Is Altoro Mutual vulnerable to XSS: 
+
+**Yes, Altoro Mutual is vulnerable to XSS**
+![XSS_Vulnerable](:\Users\amisha.munjal\Documents\Week16-Homework\Screengrabs)
 
 ### Step 5: Zenmap
 
@@ -62,3 +70,4 @@ Your client has asked that you help identify any vulnerabilities with their file
 
 ---
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.  
+
