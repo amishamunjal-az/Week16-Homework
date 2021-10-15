@@ -6,8 +6,11 @@
 - Using Google, can you identify who the Chief Executive Officer of Altoro Mutual is:
 
 **Ans** :- Use the command **site:demo.testfire.net intext:chief executive officer**
+
 ![GoogleDorking.png](:\Users\amisha.munjal\Documents\Week16-Homework\Screengrabs)
+
 ![GoogleDorkingInfoResults.png](:\Users\amisha.munjal\Documents\Week16-Homework\Screengrabsg)
+
 - How can this information be helpful to an attacker:
 
 **Ans :-** This information would serve as OSINT and can be used as by an attacker for impersonating attacks.
@@ -19,18 +22,27 @@ Cybercriminals target executives using well thought out and tailored spear phish
 Enter the IP address for `demo.testfire.net` into Domain Dossier and answer the following questions based on the results:
 
   1. Where is the company located: 
-**Ans :- Sunnyvale, CA**
-  2. What is the NetRange IP address:
-**Ans : - 65.61.137.64 - 65.61.137.127**
-  3. What is the company they use to store their infrastructure:
- **Ans :- Rackspace Backbone Engineering**
 
-  4. What is the IP address of the DNS server:
+**Ans :- Sunnyvale, CA**
+  
+2. What is the NetRange IP address:
+
+**Ans : - 65.61.137.64 - 65.61.137.127**
+  
+3. What is the company they use to store their infrastructure:
+ 
+**Ans :- Rackspace Backbone Engineering**
+
+4. What is the IP address of the DNS server:
+
 **Ans :- 65.61.137.117**
+
 #### Step 3: Shodan
 
 - What open ports and running services did Shodan find:
+
 **Ans :- 80, 443, 8080**
+
 **Running Services - TCP, SSL & HTTPS, HTTP**
 
 #### Step 4: Recon-ng
@@ -40,15 +52,18 @@ Enter the IP address for `demo.testfire.net` into Domain Dossier and answer the 
 - Run the module. 
 
 **Ans:- commands to be used**
+
 1) recon-ng
 2) keys add shodan_api [key to be added]
 3) marketplace install xssed
 4) modules load recon/domains-vulnerabilities/xssed
 5) options set SOURCE demo.testfire.net
 6) run
+
 Is Altoro Mutual vulnerable to XSS: 
 
 **Yes, Altoro Mutual is vulnerable to XSS**
+
 ![XSS_Vulnerable](:\Users\amisha.munjal\Documents\Week16-Homework\Screengrabs)
 
 ### Step 5: Zenmap
