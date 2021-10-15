@@ -7,9 +7,9 @@
 
 **Ans** :- Use the command **site:demo.testfire.net intext:chief executive officer**
 
-![Dorking.png](C:\Users\amisha.munjal\Documents\Week16-Homework\Screengrabs)
+![Dorking.png](Screengrabs/Dorking.png)
 
-![Dorkinginfo.png](C:\Users\amisha.munjal\Documents\Week16-Homework\Screengrabsg)
+![Dorkinginfo.png](Screengrabs/Dorkinginfo.png)
 
 - How can this information be helpful to an attacker:
 
@@ -64,7 +64,7 @@ Is Altoro Mutual vulnerable to XSS:
 
 **Yes, Altoro Mutual is vulnerable to XSS**
 
-![XSS](C:\Users\amisha.munjal\Documents\Week16-Homework\Screengrabs)
+![XSS.png](Screengrabs/XSS.png)
 
 ### Step 5: Zenmap
 
