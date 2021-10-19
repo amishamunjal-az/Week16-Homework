@@ -96,8 +96,10 @@ It allows to execute arbitary code on the target machine and also shared resourc
 
   3. What mitigation strategies can you recommendations for the client to protect their server:
 
- Block ports 135-139 in your router/firewall.
+Block ports 135-139 in your router/firewall.
+
 Keep your systems up-to-date 
+
 Using VPN
 
 
